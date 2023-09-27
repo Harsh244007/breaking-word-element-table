@@ -29,6 +29,9 @@ const App = () => {
   };
   return (
     <div className="app">
+      <p className="mx-5">Enter any name in this box</p>
+      <p className="mx-5">It would highlight elements name from it.</p>
+
       <div className="content">
         <BreakingLogo result={first} />
         <BreakingLogo result={last} />
@@ -44,7 +47,7 @@ const App = () => {
         </div>
         <button>Breakify</button>
       </div>
-      
+
       <p className="mt-5">Made by Harsh with ❤️</p>
     </div>
   );
