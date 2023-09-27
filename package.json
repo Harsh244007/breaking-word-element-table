@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "latest"
+    "preact": "latest",
+    "styled-components": "^6.0.8"
   },
   "devDependencies": {
-    "postcss": "latest",
-    "autoprefixer": "latest",
     "@preact/preset-vite": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest",
     "vite": "latest"
