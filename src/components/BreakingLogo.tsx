@@ -19,7 +19,6 @@ const S = {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     & > span {
       font-size: 75px;
     }
@@ -31,7 +30,7 @@ const S = {
     color: #fff;
     font-size: 75px;
     display: flex;
+    width:max-content;
     align-items: center;
-    justify-content: center;
   `
 }
