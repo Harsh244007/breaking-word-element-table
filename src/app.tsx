@@ -44,6 +44,8 @@ const App = () => {
         </div>
         <button>Breakify</button>
       </div>
+      
+      <p className="mt-5">Made by Harsh with ❤️</p>
     </div>
   );
 };
